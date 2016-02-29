@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1ADB27A81C21E11B00E9F4D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB27A71C21E11B00E9F4D2 /* AppDelegate.swift */; };
-		1ADB27AA1C21E11B00E9F4D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB27A91C21E11B00E9F4D2 /* ViewController.swift */; };
+		1ADB27AA1C21E11B00E9F4D2 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB27A91C21E11B00E9F4D2 /* RecordSoundsViewController.swift */; };
 		1ADB27AD1C21E11B00E9F4D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB27AB1C21E11B00E9F4D2 /* Main.storyboard */; };
 		1ADB27AF1C21E11B00E9F4D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB27AE1C21E11B00E9F4D2 /* Images.xcassets */; };
 		1ADB27B21C21E11B00E9F4D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB27B01C21E11B00E9F4D2 /* LaunchScreen.xib */; };
 		1ADB27BE1C21E11B00E9F4D2 /* FirstAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB27BD1C21E11B00E9F4D2 /* FirstAPPTests.swift */; };
+		1ADB27C81C232F2600E9F4D2 /* PlaySoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB27C71C232F2600E9F4D2 /* PlaySoundViewController.swift */; };
+		1ADB27CC1C23CBAD00E9F4D2 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB27CB1C23CBAD00E9F4D2 /* movie_quote.mp3 */; };
+		1ADB27CE1C24E79100E9F4D2 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB27CD1C24E79100E9F4D2 /* RecordedAudio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		1ADB27A21C21E11B00E9F4D2 /* FirstAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADB27A61C21E11B00E9F4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ADB27A71C21E11B00E9F4D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1ADB27A91C21E11B00E9F4D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1ADB27A91C21E11B00E9F4D2 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		1ADB27AC1C21E11B00E9F4D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1ADB27AE1C21E11B00E9F4D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1ADB27B11C21E11B00E9F4D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1ADB27B71C21E11B00E9F4D2 /* FirstAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADB27BC1C21E11B00E9F4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ADB27BD1C21E11B00E9F4D2 /* FirstAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAPPTests.swift; sourceTree = "<group>"; };
+		1ADB27C71C232F2600E9F4D2 /* PlaySoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundViewController.swift; sourceTree = "<group>"; };
+		1ADB27CB1C23CBAD00E9F4D2 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = movie_quote.mp3; path = Sounds/movie_quote.mp3; sourceTree = "<group>"; };
+		1ADB27CD1C24E79100E9F4D2 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				1ADB27A71C21E11B00E9F4D2 /* AppDelegate.swift */,
-				1ADB27A91C21E11B00E9F4D2 /* ViewController.swift */,
+				1ADB27A91C21E11B00E9F4D2 /* RecordSoundsViewController.swift */,
 				1ADB27AB1C21E11B00E9F4D2 /* Main.storyboard */,
+				1ADB27CD1C24E79100E9F4D2 /* RecordedAudio.swift */,
+				1ADB27C71C232F2600E9F4D2 /* PlaySoundViewController.swift */,
 				1ADB27AE1C21E11B00E9F4D2 /* Images.xcassets */,
 				1ADB27B01C21E11B00E9F4D2 /* LaunchScreen.xib */,
 				1ADB27A51C21E11B00E9F4D2 /* Supporting Files */,
@@ -90,6 +98,7 @@
 		1ADB27A51C21E11B00E9F4D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1ADB27CB1C23CBAD00E9F4D2 /* movie_quote.mp3 */,
 				1ADB27A61C21E11B00E9F4D2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,6 +165,8 @@
 		1ADB279A1C21E11B00E9F4D2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = UCSD;
 				TargetAttributes = {
@@ -194,6 +205,7 @@
 			files = (
 				1ADB27AD1C21E11B00E9F4D2 /* Main.storyboard in Resources */,
 				1ADB27B21C21E11B00E9F4D2 /* LaunchScreen.xib in Resources */,
+				1ADB27CC1C23CBAD00E9F4D2 /* movie_quote.mp3 in Resources */,
 				1ADB27AF1C21E11B00E9F4D2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ADB27AA1C21E11B00E9F4D2 /* ViewController.swift in Sources */,
+				1ADB27CE1C24E79100E9F4D2 /* RecordedAudio.swift in Sources */,
+				1ADB27AA1C21E11B00E9F4D2 /* RecordSoundsViewController.swift in Sources */,
+				1ADB27C81C232F2600E9F4D2 /* PlaySoundViewController.swift in Sources */,
 				1ADB27A81C21E11B00E9F4D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +423,7 @@
 				1ADB27C31C21E11B00E9F4D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1ADB27C41C21E11B00E9F4D2 /* Build configuration list for PBXNativeTarget "FirstAPPTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +432,7 @@
 				1ADB27C61C21E11B00E9F4D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
